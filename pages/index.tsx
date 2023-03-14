@@ -29,7 +29,7 @@ const IndexPage: NextPage<Props> = ({initialImageUrl}) => {
         <div className={styles.page}>
             <button 
                 onClick={handleClick} 
-                styele={{
+                style={{
                     backgroundColor: "#319795",
                     border: "none",
                     borderRadius: "4px",
